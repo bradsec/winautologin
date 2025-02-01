@@ -1,20 +1,17 @@
-# Windows 10/11 AutoLogin Configuration Script
+## Windows AutoLogin Configuration Script
 
-A PowerShell script to easily configure or disable automatic login for Windows 10 and Windows 11 systems.
+A PowerShell script that simplifies the process of configuring automatic login on Windows 10 and Windows 11 systems. 
 
 ## Features
 
-- Enable automatic login for a Windows user account
-- Disable automatic login if previously configured
-- Validates credentials before making any changes
-- Works on Windows 10 and Windows 11 systems
-- Built-in security checks and validations
-- Requires administrator privileges to run
+- Configure automatic login for any local Windows user account
+- Remove existing automatic login configuration
+- Real-time credential validation before making system changes
 
-## Requirements
+## Prerequisites
 
-- Windows 10 or Windows 11
-- PowerShell
+- Windows 10 or Windows 11 operating system
+- PowerShell 5.1 or later
 - Administrator privileges
 
 ## Usage
@@ -23,7 +20,7 @@ There are two ways to run this script:
 
 ### Method 1: Run directly from GitHub
 
-1. Open PowerShell as Administrator:
+1. Launch PowerShell with administrator privileges  
 
 ![powershelladmin](powershell.png)  
 
